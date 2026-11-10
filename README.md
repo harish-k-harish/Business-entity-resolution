@@ -1,5 +1,14 @@
 # Multi-Source Business Entity Resolution: Enterprise Record Linkage
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harish-k-harish/Business-entity-resolution/blob/main/demo.ipynb)
+[![Google Drive Data](https://img.shields.io/badge/Google%20Drive-Datasets%20%26%20Outputs-blue?logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1nLETsjaAwh3EDJRI9tUwJmkPd7hoM1ZD?usp=sharing)
+
+> **📦 Evaluator Data & Proof Access:**  
+> The complete multi-million record test prediction outputs (`matching_results.tsv` and `candidate_pairs.tsv` covering all 1.73M entities) and full datasets are hosted on Google Drive:  
+> 🔗 **[Access Google Drive Data Folder](https://drive.google.com/drive/folders/1nLETsjaAwh3EDJRI9tUwJmkPd7hoM1ZD?usp=sharing)**
+
+---
+
 ## 1. Problem Overview
 
 In large-scale enterprise data ecosystems, commercial platforms, and knowledge bases, business identity information is continuously ingested from multiple independent, uncurated data sources. Each contributing stream provides partial, incomplete, and noisy fragments of information about real-world commercial establishments. Crucially, these disparate feeds share **no universal global keys or common identifiers** (such as LEI, VAT, or registration tax codes) due to regulatory constraints, disparate ingestion pipelines, and fragmented jurisdictional tracking.
