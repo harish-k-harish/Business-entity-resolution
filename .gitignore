@@ -45,3 +45,5 @@ scratch/test_*.py
 
 output_predictions_proof.zip
 demo_sample/
+
+Business-entity-resolution/
