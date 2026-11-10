@@ -53,6 +53,7 @@ python src/train.py
 This saves:
 - `models/matcher_model.pkl` (trained model)
 - `models/model_meta.pkl` (optimal threshold & hyperparameters)
+- `paper_figures/` (auto-generates all 6 IEEE publication figures: `fig1_threshold_calibration.png`, `fig2_blocking_tradeoff.png`, `fig3_feature_importance.png`, `fig4_latency_donut.png`, `fig5_model_comparison.png`, `fig6_jurisdiction_reduction.png`)
 
 ### 2. Full Test Inference
 To run candidate generation and matching inference over the entire test dataset (`dataset/test/`):
